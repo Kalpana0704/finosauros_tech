@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Concall wire — live summaries</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="mark"> cons</span>
+      <div>
+        <strong>Concall wire</strong>
+        <div class="sub">NSE + BSE transcript pipeline</div>
+      </div>
+    </div>
+    <div class="meta">
+      <span id="health">connecting…</span>
+      <span id="ws" class="pill off">WS idle</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="rail">
+      <div class="rail-head">
+        <h2>Watchlist</h2>
+        <button id="backfill" type="button">Backfill</button>
+      </div>
+      <ul id="list"></ul>
+    </aside>
+    <section class="detail" id="detail">
+      <p class="empty">Select a filing. New transcripts land here the moment they are summarized.</p>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

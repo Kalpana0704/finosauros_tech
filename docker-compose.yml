@@ -1,0 +1,14 @@
+services:
+  concall:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      DATA_DIR: /app/data
+      WATCHLIST: /app/watchlist.yaml
+    volumes:
+      - ./data:/app/data
+      - ./sample_outputs:/app/sample_outputs
+      - ./watchlist.yaml:/app/watchlist.yaml:ro

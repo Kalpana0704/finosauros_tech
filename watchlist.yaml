@@ -1,0 +1,34 @@
+# Small, sector-spread set. Scrip codes are BSE; symbols are NSE.
+companies:
+  - name: HDFC Bank Limited
+    nse_symbol: HDFCBANK
+    bse_scrip: "500180"
+    sector: Banking
+  - name: Maruti Suzuki India Limited
+    nse_symbol: MARUTI
+    bse_scrip: "532500"
+    sector: Automobile
+  - name: Sun Pharmaceutical Industries Limited
+    nse_symbol: SUNPHARMA
+    bse_scrip: "524715"
+    sector: Pharma
+  - name: Infosys Limited
+    nse_symbol: INFY
+    bse_scrip: "500209"
+    sector: IT
+  - name: Reliance Industries Limited
+    nse_symbol: RELIANCE
+    bse_scrip: "500325"
+    sector: Energy / Conglomerate
+  - name: Hindustan Unilever Limited
+    nse_symbol: HINDUNILVR
+    bse_scrip: "500696"
+    sector: FMCG
+  - name: Tata Steel Limited
+    nse_symbol: TATASTEEL
+    bse_scrip: "500470"
+    sector: Metals
+  - name: Titan Company Limited
+    nse_symbol: TITAN
+    bse_scrip: "500114"
+    sector: Consumer
